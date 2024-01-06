@@ -303,3 +303,4 @@ F:\.NET Maui\FuturArtXTrue\FuturArtXTrue\obj\Debug\net8.0-maccatalyst\maccatalys
 F:\.NET Maui\FuturArtXTrue\FuturArtXTrue\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\logo.png
 F:\.NET Maui\FuturArtXTrue\FuturArtXTrue\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\kunst1.png
 F:\.NET Maui\FuturArtXTrue\FuturArtXTrue\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\kunst2.png
+F:\.NET Maui\FuturArtXTrue\FuturArtXTrue\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\FuturArtXTrue.sourcelink.json
