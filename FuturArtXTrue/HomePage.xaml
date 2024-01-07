@@ -12,13 +12,70 @@
                                 StrokeShape="RoundRectangle 10,10,10,10"
                                 HorizontalOptions="Center"
                                 StrokeThickness="0"
-                                Margin="10">
+                                Margin="10,10,280,10">
                             <Image
                                 Source="logo.png"
                                 HeightRequest="65"
                             />
                         </Border>
+                        <VerticalStackLayout VerticalOptions="Center">
+                            <VerticalStackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ShowMenu"/>
+                            </VerticalStackLayout.GestureRecognizers>
+                            <Rectangle Fill="#0A232E" WidthRequest="40" HeightRequest="8" RadiusX="10" Margin="0,0,0,2"></Rectangle>
+                            <Rectangle Fill="#0A232E" WidthRequest="40" HeightRequest="8" RadiusX="10" Margin="0,0,0,2"></Rectangle>
+                            <Rectangle Fill="#0A232E" WidthRequest="40" HeightRequest="8" RadiusX="10" Margin="0,0,0,2"></Rectangle>
+                        </VerticalStackLayout>
                     </HorizontalStackLayout>
+                    <Border x:Name="Menu"
+                            HeightRequest="240" 
+                            StrokeShape="RoundRectangle 10,10,10,10"
+                            HorizontalOptions="Fill"
+                            StrokeThickness="0"
+                            Margin="20">
+                        <VerticalStackLayout HeightRequest="240"
+                                             BackgroundColor="#009EE0">
+                            <Label
+                                HorizontalOptions="Center"
+                                Text="Home"
+                                TextColor="#F2FAFD"
+                                FontSize="24"
+                                Margin="0,20,0,20">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="ChangePageHome"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                            <Label
+                                HorizontalOptions="Center"
+                                Text="Account"
+                                TextColor="#F2FAFD"
+                                FontSize="24"
+                                Margin="0,0,0,20">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="ChangePageAccount"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                            <Label
+                                HorizontalOptions="Center"
+                                Text="Exponate"
+                                TextColor="#F2FAFD"
+                                FontSize="24"
+                                Margin="0,0,0,20">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="ChangePageExponat"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                            <Label
+                                HorizontalOptions="Center"
+                                Text="Exponat Registrieren"
+                                TextColor="#F2FAFD"
+                                FontSize="24">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="ChangePageExponatRegister"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                        </VerticalStackLayout>
+                    </Border>
                     <VerticalStackLayout
                         HeightRequest="350"
                         BackgroundColor="#009EE0">
@@ -47,7 +104,8 @@
                             CornerRadius="15"
                             BackgroundColor="#508AE6"
                             Text="ZUR  AUSSTELLUNG"
-                            HorizontalOptions="Center">
+                            HorizontalOptions="Center"
+                            Clicked="ChangePageExponatSpecific">
                             <Button.Shadow>
                                 <Shadow Brush="Black"
                                         Offset="0,5"
@@ -91,7 +149,8 @@
                                 CornerRadius="15"
                                 BackgroundColor="#508AE6"
                                 Text="ZUM EXPONAT"
-                                HorizontalOptions="Center">
+                                HorizontalOptions="Center"
+                                Clicked="ChangePageExponatSpecificSternenNacht">
                                 <Button.Shadow>
                                     <Shadow Brush="Black"
                                             Offset="0,5"
@@ -132,7 +191,8 @@
                                 CornerRadius="15"
                                 BackgroundColor="#508AE6"
                                 Text="ZUM EXPONAT"
-                                HorizontalOptions="Center">
+                                HorizontalOptions="Center"
+                                Clicked="ChangePageExponatSpecificSchrei">
                                 <Button.Shadow>
                                     <Shadow Brush="Black"
                                             Offset="0,5"
@@ -180,15 +240,27 @@
                         <Label
                             Text="Home"
                             TextColor="#0A232E"
-                            FontSize="18"/>
+                            FontSize="18">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ChangePageHome"/>
+                            </Label.GestureRecognizers>
+                        </Label>
                         <Label
                             Text="Exponate"
                             TextColor="#0A232E"
-                            FontSize="18"/>
+                            FontSize="18">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ChangePageExponat"/>
+                            </Label.GestureRecognizers>
+                        </Label>
                         <Label
                             Text="Account"
                             TextColor="#0A232E"
-                            FontSize="18"/>
+                            FontSize="18">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ChangePageAccount"/>
+                            </Label.GestureRecognizers>
+                        </Label>
                     </HorizontalStackLayout>
                 </VerticalStackLayout>
             </VerticalStackLayout>

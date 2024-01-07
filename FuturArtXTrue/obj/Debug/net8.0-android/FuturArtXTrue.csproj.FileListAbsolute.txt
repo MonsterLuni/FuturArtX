@@ -1040,7 +1040,9 @@ F:\.NET Maui\FuturArtXTrue\FuturArtXTrue\obj\Debug\net8.0-android\resizetizer\r\
 F:\.NET Maui\FuturArtXTrue\FuturArtXTrue\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\logo.png
 F:\.NET Maui\FuturArtXTrue\FuturArtXTrue\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\logo.png
 F:\.NET Maui\FuturArtXTrue\FuturArtXTrue\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\logo.png
-F:\.NET Maui\FuturArtXTrue\FuturArtXTrue\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
 F:\.NET Maui\FuturArtXTrue\FuturArtXTrue\obj\Debug\net8.0-android\resizetizer\r\drawable\kunst1.png
 F:\.NET Maui\FuturArtXTrue\FuturArtXTrue\obj\Debug\net8.0-android\resizetizer\r\drawable\kunst2.png
 F:\.NET Maui\FuturArtXTrue\FuturArtXTrue\obj\Debug\net8.0-android\FuturArtXTrue.sourcelink.json
+F:\.NET Maui\FuturArtXTrue\FuturArtXTrue\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
+F:\.NET Maui\FuturArtXTrue\FuturArtXTrue\obj\Debug\net8.0-android\resizetizer\r\drawable\kunst3.png
+F:\.NET Maui\FuturArtXTrue\FuturArtXTrue\obj\Debug\net8.0-android\resizetizer\r\drawable\hase.png

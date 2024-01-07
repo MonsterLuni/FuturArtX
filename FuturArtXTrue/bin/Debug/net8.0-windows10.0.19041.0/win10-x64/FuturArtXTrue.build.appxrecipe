@@ -214,11 +214,17 @@
     <AppxPackagedFile Include="F:\.NET Maui\FuturArtXTrue\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\.NET Maui\FuturArtXTrue\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\hase.scale-100.png">
+      <PackagePath>hase.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\.NET Maui\FuturArtXTrue\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\kunst1.scale-100.png">
       <PackagePath>kunst1.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\.NET Maui\FuturArtXTrue\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\kunst2.scale-100.png">
       <PackagePath>kunst2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\.NET Maui\FuturArtXTrue\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\kunst3.scale-100.png">
+      <PackagePath>kunst3.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\.NET Maui\FuturArtXTrue\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
       <PackagePath>logo.scale-100.png</PackagePath>
