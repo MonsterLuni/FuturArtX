@@ -1,1 +1,1 @@
-F:\.NET Maui\FuturArtXTrue\FuturArtXTrue\FuturArtXTrue.csproj;x64
+D:\MAUI\FuturArtX\FuturArtXTrue\FuturArtXTrue.csproj;x64

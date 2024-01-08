@@ -1,22 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "F:\\.NET Maui\\FuturArtXTrue\\FuturArtXTrue\\FuturArtXTrue.csproj": {}
+    "D:\\MAUI\\FuturArtX\\FuturArtXTrue\\FuturArtXTrue.csproj": {}
   },
   "projects": {
-    "F:\\.NET Maui\\FuturArtXTrue\\FuturArtXTrue\\FuturArtXTrue.csproj": {
+    "D:\\MAUI\\FuturArtX\\FuturArtXTrue\\FuturArtXTrue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\.NET Maui\\FuturArtXTrue\\FuturArtXTrue\\FuturArtXTrue.csproj",
+        "projectUniqueName": "D:\\MAUI\\FuturArtX\\FuturArtXTrue\\FuturArtXTrue.csproj",
         "projectName": "FuturArtXTrue",
-        "projectPath": "F:\\.NET Maui\\FuturArtXTrue\\FuturArtXTrue\\FuturArtXTrue.csproj",
-        "packagesPath": "C:\\Users\\monst\\.nuget\\packages\\",
-        "outputPath": "F:\\.NET Maui\\FuturArtXTrue\\FuturArtXTrue\\obj\\",
+        "projectPath": "D:\\MAUI\\FuturArtX\\FuturArtXTrue\\FuturArtXTrue.csproj",
+        "packagesPath": "C:\\Users\\luca.moser\\.nuget\\packages\\",
+        "outputPath": "D:\\MAUI\\FuturArtX\\FuturArtXTrue\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
-          "C:\\Users\\monst\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\luca.moser\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0-android",
@@ -25,8 +24,6 @@
           "net8.0-windows10.0.19041.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

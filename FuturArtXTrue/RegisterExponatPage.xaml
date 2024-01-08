@@ -15,8 +15,11 @@
                                 Margin="10,10,280,10">
                             <Image
                                 Source="logo.png"
-                                HeightRequest="65"
-                            />
+                                HeightRequest="65">
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="ChangePageHome"/>
+                                </Image.GestureRecognizers>
+                            </Image>
                         </Border>
                         <VerticalStackLayout VerticalOptions="Center">
                             <VerticalStackLayout.GestureRecognizers>
@@ -103,13 +106,14 @@
                                 HorizontalOptions="Center"/>
                             <Border HeightRequest="45" 
                                     BackgroundColor="White"
+                                    Stroke="{Binding NameBackgroundColor}"
                                     WidthRequest="300"
                                     StrokeShape="RoundRectangle 20,20,20,20"
                                     HorizontalOptions="Center"
-                                    Stroke="black"
                                     StrokeThickness="2"
                                     Padding="40">
                                 <Entry Placeholder="Hans-Peter Moser"
+                                       Text="{Binding Name, Mode=TwoWay}"
                                        HorizontalTextAlignment="Center"
                                        WidthRequest="200"
                                        HeightRequest="35"
@@ -124,14 +128,15 @@
                                 HorizontalOptions="Center"/>
                             <Border HeightRequest="45" 
                                     BackgroundColor="White"
+                                    Stroke="{Binding EmailBackgroundColor}"
                                     WidthRequest="300"
                                     StrokeShape="RoundRectangle 20,20,20,20"
                                     HorizontalOptions="Center"
-                                    Stroke="black"
                                     StrokeThickness="2"
                                     Padding="40">
                                 <Entry Placeholder="exponatfreak@gmail.com"
                                        HorizontalTextAlignment="Center"
+                                       Text="{Binding Email, Mode=TwoWay}"
                                        WidthRequest="200"
                                        HeightRequest="35"
                                        BackgroundColor="White"
@@ -145,14 +150,15 @@
                                 HorizontalOptions="Center"/>
                             <Border HeightRequest="45" 
                                     BackgroundColor="White"
+                                    Stroke="{Binding GegenstandBackgroundColor}"
                                     WidthRequest="300"
                                     StrokeShape="RoundRectangle 20,20,20,20"
                                     HorizontalOptions="Center"
-                                    Stroke="black"
                                     StrokeThickness="2"
                                     Padding="40">
                                 <Entry Placeholder="Antiker Staubsauger"
                                        HorizontalTextAlignment="Center"
+                                       Text="{Binding Gegenstand, Mode=TwoWay}"
                                        WidthRequest="200"
                                        HeightRequest="35"
                                        BackgroundColor="White"
@@ -165,15 +171,16 @@
                                 Text="Beschreibung"
                                 HorizontalOptions="Center"/>
                             <Border HeightRequest="260" 
-                                    BackgroundColor="White"
                                     WidthRequest="300"
+                                    BackgroundColor="White"
                                     StrokeShape="RoundRectangle 20,20,20,20"
                                     HorizontalOptions="Center"
-                                    Stroke="black"
+                                    Stroke="{Binding BeschreibungBackgroundColor}"
                                     StrokeThickness="2"
                                     Padding="40"
                                     Margin="0,0,0,30">
                                 <Editor Placeholder="Enter your response here"
+                                        Text="{Binding Beschreibung, Mode=TwoWay}"
                                         HeightRequest="250"/>
                             </Border>
                             <Button TextColor="Black"
@@ -197,7 +204,9 @@
                                 Text="Senden"
                                 WidthRequest="140"
                                 HorizontalOptions="Center"
-                                Margin="0,0,0,30">
+                                Margin="0,0,0,30"
+                                Command="{Binding ValidateCommand}"
+                                CommandParameter="Hello, MAUI!">
                                 <Button.Shadow>
                                     <Shadow Brush="Black"
                                             Offset="0,5"
@@ -219,8 +228,11 @@
                                 Margin="20,30,5,30">
                             <Image
                                 Source="logo.png"
-                                HeightRequest="65"
-                            />
+                                HeightRequest="65">
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="ChangePageHome"/>
+                                </Image.GestureRecognizers>
+                            </Image>
                         </Border>
                         <VerticalStackLayout Margin="0,32,0,0">
                             <Label

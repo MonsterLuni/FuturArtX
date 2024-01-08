@@ -14,8 +14,11 @@
                             Margin="10,10,280,10">
                         <Image
                             Source="logo.png"
-                            HeightRequest="65"
-                        />
+                            HeightRequest="65">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ChangePageHome"/>
+                            </Image.GestureRecognizers>
+                        </Image>
                     </Border>
                     <VerticalStackLayout VerticalOptions="Center">
                         <VerticalStackLayout.GestureRecognizers>
@@ -26,7 +29,7 @@
                         <Rectangle Fill="#0A232E" WidthRequest="40" HeightRequest="8" RadiusX="10" Margin="0,0,0,2"></Rectangle>
                     </VerticalStackLayout>
                 </HorizontalStackLayout>
-                <Border x:Name="Menu"
+            <Border x:Name="Menu"
                         HeightRequest="240" 
                         StrokeShape="RoundRectangle 10,10,10,10"
                         HorizontalOptions="Fill"
@@ -75,6 +78,57 @@
                         </Label>
                     </VerticalStackLayout>
                 </Border>
+            <Border StrokeShape="RoundRectangle 10,10,10,10"
+                    HorizontalOptions="Fill"
+                    StrokeThickness="0"
+                    Margin="20">
+                <VerticalStackLayout BackgroundColor="#009EE0">
+                    <Label
+                        HorizontalOptions="Center"
+                        Text="Exponate Registriert: 3"
+                        TextColor="#F2FAFD"
+                        FontSize="24"
+                        Margin="0,20,0,20">
+                    </Label>
+                    <CarouselView ItemsSource="{Binding CarouselThings}">
+                        <CarouselView.ItemTemplate>
+                            <DataTemplate>
+                                   <Border StrokeShape="RoundRectangle 10,10,10,10"
+                                           HorizontalOptions="Fill"
+                                           StrokeThickness="0"
+                                           Margin="20"
+                                           WidthRequest="300">
+                                        <StackLayout 
+                                            WidthRequest="300"
+                                            BackgroundColor="#F2FAFD"
+                                            Margin="0,0,0,0">
+                                            <Label
+                                                HorizontalOptions="Center"
+                                                Text="{Binding gegenstand}"
+                                                TextColor="#0A232E"
+                                                FontSize="24"
+                                                Margin="0,20,0,0">
+                                            </Label>
+                                            <Label
+                                                   HorizontalOptions="Center"
+                                                   Text="{Binding beschreibung}"
+                                                   TextColor="#0A232E"
+                                                   FontSize="24"
+                                                   Margin="15,20,15,20">
+                                            </Label>
+                                            <Image
+                                                    Source="{Binding image}"
+                                                    HeightRequest="65"
+                                                    Margin="0,0,0,20">
+                                            </Image>
+                                            <Label Text="{Binding number}" HorizontalOptions="CenterAndExpand" VerticalOptions="End" Margin="0,0,0,20" />
+                                        </StackLayout>
+                                       </Border>
+                            </DataTemplate>
+                        </CarouselView.ItemTemplate>
+                    </CarouselView>
+                </VerticalStackLayout>
+            </Border>
             <VerticalStackLayout HeightRequest="180"
                                  BackgroundColor="#009EE0">
                 <HorizontalStackLayout>
@@ -86,8 +140,11 @@
                             Margin="20,30,5,30">
                         <Image
                             Source="logo.png"
-                            HeightRequest="65"
-                        />
+                            HeightRequest="65">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ChangePageHome"/>
+                            </Image.GestureRecognizers>
+                        </Image>
                     </Border>
                     <VerticalStackLayout Margin="0,32,0,0">
                         <Label

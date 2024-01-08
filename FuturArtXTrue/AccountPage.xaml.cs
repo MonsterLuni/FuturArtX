@@ -8,10 +8,17 @@ namespace FuturArtXTrue;
 
 public partial class AccountPage : ContentPage
 {
+    private MyViewModel _viewModel;
     public AccountPage()
     {
         InitializeComponent();
         Menu.IsVisible = false;
+        InitializeViewModel();
+    }
+    private void InitializeViewModel()
+    {
+        _viewModel = new MyViewModel();
+        BindingContext = _viewModel;
     }
     public void ChangePageHome(object sender, EventArgs e)
     {
