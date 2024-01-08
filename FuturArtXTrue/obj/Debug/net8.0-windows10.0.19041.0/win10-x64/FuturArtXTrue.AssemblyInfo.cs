@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FuturArtXTrue")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8356b001e59705781cb98383b88e7bbb035b14ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8789c7fc7e2e33568c8bbbe389c68d8517921b8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("FuturArtXTrue")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FuturArtXTrue")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
