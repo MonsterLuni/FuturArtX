@@ -12,19 +12,6 @@ public partial class HomePage : ContentPage
     public HomePage()
     {
         InitializeComponent();
-        Menu.IsVisible = false;
-    }
-    public void ChangePageHome(object sender, EventArgs e)
-    {
-        App.Current.MainPage = new HomePage();
-    }
-    public void ChangePageAccount(object sender, EventArgs e)
-    {
-        App.Current.MainPage = new AccountPage();
-    }
-    public void ChangePageExponatSpecific(object sender, EventArgs e)
-    {
-        App.Current.MainPage = new ExponatPage("ZEIT VON DÜRER","BIS BONVICINI","Der Streifzug durch die Geschichte der Zeit vereint Gemälde, Videos und Filme, Installationen, Performances sowie Uhrmacherkunst. Die Werke und Objekte zeugen etwa von der Flüchtigkeit des Lebens, erzählen vom Wechsel der Jahreszeiten und von Möglichkeiten des Innehaltens sowie vom globalen Finanzmarkt, der inzwischen auf Billionstel-Sekunden getaktet wird. Ein vielschichtiger Teppich, der unter anderem historische, paläontologische und physikalische Perspektiven beleuchtet, wird auf über 1200m2 Ausstellungsfläche ausgerollt und gliedert die Schau in sechs Kapitel: Diese befragen unter anderem die sog. «Deep Time», politische Dimensionen und biologische Aspekte von Zeit. Des Weiteren laden partizipative Formate dazu ein, sich über innovative Zukunftsmodelle auszutauschen: Ein so reizvolles wie dringliches Angebot, wird gesellschaftlich unentwegt darüber debattiert, wie es zukünftig noch möglich sei, das Überleben des Planeten und seiner Bewohner:innen zu sichern – und wie viel Zeit uns dafür noch bleibe.","kunst3.png");
     }
     public void ChangePageExponatSpecificSternenNacht(object sender, EventArgs e)
     {
@@ -33,17 +20,5 @@ public partial class HomePage : ContentPage
     public void ChangePageExponatSpecificSchrei(object sender, EventArgs e)
     {
         App.Current.MainPage = new ExponatPage("DER SCHREI","DER NACHKLINGT","\"Der Schrei\" von Edvard Munch, geschaffen im Jahr 1893, ist ein Schlüsselwerk der symbolistischen Bewegung und verkörpert die Essenz des existentialistischen Ausdrucks.\n\nDas Gemälde zeigt eine schemenhafte Figur auf einer Brücke, umgeben von einer verzerrten Landschaft. Zerrissene Wolken und ein leuchtend roter Himmel verstärken das Gefühl der Verzweiflung. Das entstellte Gesicht der Figur und die weit aufgerissenen Augen vermitteln einen stummen Schrei, der Munchs persönliche Krise widerspiegelt und gleichzeitig eine universelle Erfahrung anspricht.\n\nDie kräftigen Farben intensivieren die emotionalen Turbulenzen, während Munchs künstlerische Technik dazu beiträgt, die innere Zerrissenheit der Figur zu vermitteln. \"Der Schrei\" ist nicht nur ein individueller Ausdruck von Munchs inneren Kämpfen, sondern auch ein Spiegelbild der Unsicherheiten und Ängste in der damaligen Gesellschaft.\n\nDieses Exponat lädt dazu ein, in die tiefen Abgründe der menschlichen Seele zu blicken und sich mit den existenziellen Fragen auseinanderzusetzen, die auch heute noch aktuell sind. \"Der Schrei\" von Edvard Munch bleibt ein kraftvolles Zeugnis für die menschliche Existenz und ihre existenziellen Herausforderungen.","kunst2.png");
-    }
-    public void ChangePageExponat(object sender, EventArgs e)
-    {
-        App.Current.MainPage = new ExponatPage();
-    }
-    public void ChangePageExponatRegister(object sender, EventArgs e)
-    {
-        App.Current.MainPage = new RegisterExponatPage();
-    }
-    public void ShowMenu(object sender, EventArgs e)
-    {
-        Menu.IsVisible = !Menu.IsVisible;
     }
 }

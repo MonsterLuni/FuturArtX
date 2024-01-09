@@ -12,32 +12,11 @@ public partial class AccountPage : ContentPage
     public AccountPage()
     {
         InitializeComponent();
-        Menu.IsVisible = false;
         InitializeViewModel();
     }
     private void InitializeViewModel()
     {
         _viewModel = new MyViewModel();
         BindingContext = _viewModel;
-    }
-    public void ChangePageHome(object sender, EventArgs e)
-    {
-        App.Current.MainPage = new HomePage();
-    }
-    public void ChangePageAccount(object sender, EventArgs e)
-    {
-        App.Current.MainPage = new AccountPage();
-    }
-    public void ChangePageExponat(object sender, EventArgs e)
-    {
-        App.Current.MainPage = new ExponatPage();
-    }
-    public void ShowMenu(object sender, EventArgs e)
-    {
-        Menu.IsVisible = !Menu.IsVisible;
-    }
-    public void ChangePageExponatRegister(object sender, EventArgs e)
-    {
-        App.Current.MainPage = new RegisterExponatPage();
     }
 }

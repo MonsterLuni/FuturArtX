@@ -5,45 +5,26 @@ public partial class ExponatPage : ContentPage
     public ExponatPage(String text, String text2, String nachricht, String url)
     {
         InitializeComponent();
-        Menu.IsVisible = false;
         Title.Text = text;
         Title2.Text = text2;
         Message.Text = nachricht;
         Picture.Source = url;
         if (text2 == "")
         {
-            Title2.IsVisible = false;
+            Content1.IsVisible = false;
+            Content2.IsVisible = true;
         }
-
-        Content2.IsVisible = false;
-        Content1.IsVisible = true;
-    }
-    public void ShowMenu(object sender, EventArgs e)
-    {
-        Menu.IsVisible = !Menu.IsVisible;
-    }
-    public void ChangePageExponatRegister(object sender, EventArgs e)
-    {
-        App.Current.MainPage = new RegisterExponatPage();
+        else
+        {
+            Content1.IsVisible = true;
+            Content2.IsVisible = false;
+        }
     }
     public ExponatPage()
     {
         InitializeComponent();
-        Menu.IsVisible = false;
         Content2.IsVisible = true;
         Content1.IsVisible = false;
-    }
-    public void ChangePageHome(object sender, EventArgs e)
-    {
-        App.Current.MainPage = new HomePage();
-    }
-    public void ChangePageAccount(object sender, EventArgs e)
-    {
-        App.Current.MainPage = new AccountPage();
-    }
-    public void ChangePageExponat(object sender, EventArgs e)
-    {
-        App.Current.MainPage = new ExponatPage();
     }
     public void ChangePageExponatSpecific(object sender, EventArgs e)
     {
