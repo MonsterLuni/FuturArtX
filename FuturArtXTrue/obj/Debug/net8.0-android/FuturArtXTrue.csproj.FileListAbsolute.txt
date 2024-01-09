@@ -282,6 +282,7 @@ D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-android\android\assets\System.N
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-android\android\assets\System.Numerics.dll
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-android\android\assets\System.Numerics.Vectors.dll
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-android\android\assets\System.ObjectModel.dll
+D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-android\android\assets\System.Private.DataContractSerialization.dll
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-android\android\assets\System.Private.Uri.dll
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-android\android\assets\System.Private.Xml.dll
@@ -1045,4 +1046,3 @@ D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-android\stamp\_ConvertResources
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
-D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll

@@ -1,6 +1,7 @@
 ﻿// ViewModel.cs
 
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Text.RegularExpressions;
 
 namespace FuturArtXTrue
@@ -9,6 +10,28 @@ namespace FuturArtXTrue
     {
         
         public ObservableCollection<string> CarouselItems { get; }
+        private ImageSource _selectedImageSource;
+
+        public ImageSource SelectedImageSource{
+            get { return _selectedImageSource; }
+            set
+            {
+                if (_selectedImageSource != value)
+                {
+                    _selectedImageSource = value;
+                    OnPropertyChanged(nameof(SelectedImageSource));
+                    OnPropertyChanged(nameof(SelectedImagePath));
+                }
+            }
+        }
+        public string SelectedImagePath => (_selectedImageSource as FileImageSource)?.File;
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected virtual void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
         
         public static readonly BindableProperty NameProperty = BindableProperty.Create(nameof(Name), typeof(string), typeof(MyViewModel), default(string));
         public static readonly BindableProperty EmailProperty = BindableProperty.Create(nameof(Email), typeof(string), typeof(MyViewModel), default(string));
@@ -139,13 +162,17 @@ namespace FuturArtXTrue
                 BeschreibungBackgroundColor = Colors.Black;
                 EmailBackgroundColor = Colors.Red;
             }
+            else if (SelectedImagePath == null)
+            {
+                ShowAlert("Validierung Fehlgeschlagen","Es ist kein Bild vorhanden, bitte lade eines hoch oder deaktiviere das Bild");
+            }
             else
             {
                 NameBackgroundColor = Colors.Black;
                 GegenstandBackgroundColor = Colors.Black;
                 BeschreibungBackgroundColor = Colors.Black;
                 EmailBackgroundColor = Colors.Black;
-                App.Current.MainPage = new RegisteredExponatPage(Name,Gegenstand,Beschreibung,"",Email);
+                App.Current.MainPage = new RegisteredExponatPage(Name,Gegenstand,Beschreibung,SelectedImagePath,Email);
             }
         }
         

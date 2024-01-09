@@ -47,11 +47,9 @@
                                            FontSize="14"
                                            Margin="5,0,5,2"
                                            HorizontalOptions="Center"/>
-                                    <Image x:Name="Image">
-                                        
-                                    </Image>
+                                    <Image x:Name="Image" WidthRequest="280"></Image>
                                     <Label x:Name="Email"
-                                           TextColor="#F2FAFD"
+                                           TextColor="#0A232E"
                                            FontSize="14"
                                            Margin="0,2,0,2"
                                            HorizontalOptions="Center"/>

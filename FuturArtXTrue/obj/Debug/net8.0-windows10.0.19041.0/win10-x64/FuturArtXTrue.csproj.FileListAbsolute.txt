@@ -148,15 +148,15 @@ D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\r
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico
-D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\kunst1.scale-100.png
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png
-D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\hase.scale-100.png
+D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\kunst1.scale-100.png
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\kunst2.scale-100.png
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\kunst3.scale-100.png
+D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\hase.scale-100.png
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.stamp
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FuturArtXTrue.AssemblyInfoInputs.cache
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FuturArtXTrue.AssemblyInfo.cs

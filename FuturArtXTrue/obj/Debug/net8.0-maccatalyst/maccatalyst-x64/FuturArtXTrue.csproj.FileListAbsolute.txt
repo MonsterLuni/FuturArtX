@@ -277,9 +277,9 @@ D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\res
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\kunst1.png
+D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\kunst2.png
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\kunst3.png
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\hase.png
-D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\kunst2.png
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimage.stamp
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\MauiInfo.plist
 D:\MAUI\FuturArtX\FuturArtXTrue\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauifont.stamp

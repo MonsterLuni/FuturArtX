@@ -112,10 +112,12 @@
                                         Text="{Binding Beschreibung, Mode=TwoWay}"
                                         HeightRequest="250"/>
                             </Border>
+                            <Image x:Name="selectedImage" WidthRequest="280" Margin="0,0,0,30" Source="{Binding SelectedImageSource}"></Image>
                             <Button TextColor="Black"
                                     CornerRadius="15"
                                     BackgroundColor="White"
                                     Text="Bild"
+                                    Clicked="OnSelectImageClicked"
                                     HorizontalOptions="Center"
                                     WidthRequest="180"
                                     Margin="0,0,0,30">
