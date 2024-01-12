@@ -164,7 +164,7 @@ namespace FuturArtXTrue
             }
             else if (SelectedImagePath == null)
             {
-                ShowAlert("Validierung Fehlgeschlagen","Es ist kein Bild vorhanden, bitte lade eines hoch oder deaktiviere das Bild");
+                ShowAlert("Validierung Fehlgeschlagen","Es ist kein Bild vorhanden, bitte lade eines hoch.");
             }
             else
             {
@@ -178,7 +178,6 @@ namespace FuturArtXTrue
         
         static bool ValidateNoSpecialCharacters(string input)
         {
-            // Regex, der nur Buchstaben und Ziffern zulässt
             string pattern = "^[a-zA-Z0-9\\s]*$";
         
             Regex regex = new Regex(pattern);
@@ -186,14 +185,12 @@ namespace FuturArtXTrue
         }
         private bool IsValidEmail(string email)
         {
-            // Einfacher Regulärer Ausdruck für E-Mail-Validierung
             string emailPattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
             Regex regex = new Regex(emailPattern);
             return regex.IsMatch(email);
         }
         private void ShowAlert(string title,string message)
         {
-            // Anzeige einer Alert-Meldung
             Page currentPage = Application.Current?.MainPage;
             currentPage?.DisplayAlert(title, message, "OK");
         }

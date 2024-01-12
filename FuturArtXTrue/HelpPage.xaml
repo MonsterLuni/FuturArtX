@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FuturArtXTrue"
+             x:Class="FuturArtXTrue.HelpPage">
+    <ScrollView>
+        <VerticalStackLayout>
+            <local:HeaderView/>
+            <VerticalStackLayout>
+                <Border StrokeShape="RoundRectangle 10,10,10,10"
+                    HorizontalOptions="Fill"
+                    StrokeThickness="0"
+                    Margin="20">
+                <VerticalStackLayout BackgroundColor="#009EE0"
+                                     Padding="15,0" MinimumHeightRequest="530">
+                    <StackLayout>
+                        <Picker x:Name="faqPicker"
+                                Title="Wähle eine Frage aus"
+                                Margin="0,10"
+                                SelectedIndexChanged="OnPickerSelectedIndexChanged">
+                            <Picker.ItemsSource >
+                                <x:Array Type="{x:Type x:String}">
+                                    <x:String>Was bietet die FuturArtX Museumsapplikation?</x:String>
+                                    <x:String>Wo finde ich Exponate?</x:String>
+                                    <x:String>Unterstützt FuturArtX mehrsprachige Informationen?</x:String>
+                                    <x:String>Kann ich Exponate in den sozialen Medien teilen?</x:String>
+                                    <x:String>Wie erhalte ich Hilfe bei technischen Problemen?</x:String>
+                                    <x:String>Bietet die App Barrierefreiheitsoptionen?</x:String>
+                                    <x:String>Wie schützt FuturArtX meine Privatsphäre?</x:String>
+                                    <x:String>Ist die App sicher für Kinder?</x:String>
+                                </x:Array>
+                            </Picker.ItemsSource>
+                        </Picker>
+
+                        <Label Text="Antwort wird hier angezeigt"
+                               x:Name="answerLabel"
+                               FontSize="Subtitle"
+                               Margin="20,20,20,40"/>
+                    </StackLayout>
+                </VerticalStackLayout>
+            </Border>
+            </VerticalStackLayout>
+            <local:FooterView/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

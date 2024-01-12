@@ -8,6 +8,44 @@
         <ScrollView>
             <VerticalStackLayout>
                 <local:HeaderView/>
+                <VerticalStackLayout
+                    HeightRequest="350"
+                    BackgroundColor="#009EE0">
+                    <Label
+                        TextColor="#F2FAFD"
+                        FontAttributes="Italic"
+                        FontSize="21"
+                        Margin="0,60,0,5"
+                        Text="Ausstellung bis 14. Januar 2024"
+                        HorizontalOptions="Center"/>
+                    <Label
+                        TextColor="#F2FAFD"
+                        FontSize="45"
+                        FontAttributes="Bold"
+                        Text="ZEIT VON DÜRER"
+                        HorizontalOptions="Center"/>
+                    <Label
+                        TextColor="#F2FAFD"
+                        FontSize="45"
+                        FontAttributes="Bold"
+                        Margin="0,0,0,30"
+                        Text="BIS BONVICINI"
+                        HorizontalOptions="Center"/>
+                    <Button
+                        TextColor="#F2FAFD"
+                        CornerRadius="15"
+                        BackgroundColor="#508AE6"
+                        Text="ZUR  AUSSTELLUNG"
+                        HorizontalOptions="Center"
+                        Clicked="ChangePageExponatSpecific">
+                        <Button.Shadow>
+                            <Shadow Brush="Black"
+                                    Offset="0,5"
+                                    Radius="5"
+                                    Opacity="0.6"/>
+                        </Button.Shadow>
+                    </Button>
+                </VerticalStackLayout>
                 <VerticalStackLayout 
                     Margin="10"
                     HeightRequest="845">

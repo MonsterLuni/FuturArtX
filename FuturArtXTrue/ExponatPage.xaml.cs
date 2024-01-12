@@ -20,6 +20,16 @@ public partial class ExponatPage : ContentPage
             Content2.IsVisible = false;
         }
     }
+
+    public void DatePicked(object sender, EventArgs e)
+    {
+        ShowAlert("Filterung","Datum welches gefiltert werden soll wurde geändert.");
+    }
+    private void ShowAlert(string title,string message)
+    {
+        Page currentPage = Application.Current?.MainPage;
+        currentPage?.DisplayAlert(title, message, "OK");
+    }
     public ExponatPage()
     {
         InitializeComponent();

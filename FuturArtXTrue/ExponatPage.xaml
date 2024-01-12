@@ -52,6 +52,8 @@
                                 </HorizontalStackLayout>
                             </VerticalStackLayout>
                             <VerticalStackLayout x:Name="Content2" MinimumHeightRequest="550">
+                                <Label Text="Filter:"/>
+                                <DatePicker x:Name="myDatePicker" DateSelected="DatePicked" Margin="0,0,0,10"/>
                                 <VerticalStackLayout BackgroundColor="#009EE0"
                                                      Margin="0,0,0,20">
                                     <Label TextColor="#F2FAFD"

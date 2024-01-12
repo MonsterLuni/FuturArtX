@@ -36,17 +36,11 @@ build_metadata.AdditionalFiles.ManifestResourceName = FuturArtXTrue.ExponatPage.
 build_metadata.AdditionalFiles.TargetPath = ExponatPage.xaml
 build_metadata.AdditionalFiles.RelativePath = ExponatPage.xaml
 
-[D:/MAUI/FuturArtX/FuturArtXTrue/FooterView.xaml]
+[D:/MAUI/FuturArtX/FuturArtXTrue/HelpPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FuturArtXTrue.FooterView.xaml
-build_metadata.AdditionalFiles.TargetPath = FooterView.xaml
-build_metadata.AdditionalFiles.RelativePath = FooterView.xaml
-
-[D:/MAUI/FuturArtX/FuturArtXTrue/HeaderView.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FuturArtXTrue.HeaderView.xaml
-build_metadata.AdditionalFiles.TargetPath = HeaderView.xaml
-build_metadata.AdditionalFiles.RelativePath = HeaderView.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FuturArtXTrue.HelpPage.xaml
+build_metadata.AdditionalFiles.TargetPath = HelpPage.xaml
+build_metadata.AdditionalFiles.RelativePath = HelpPage.xaml
 
 [D:/MAUI/FuturArtX/FuturArtXTrue/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -83,3 +77,15 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FuturArtXTrue.UeberUnsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = UeberUnsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = UeberUnsPage.xaml
+
+[D:/MAUI/FuturArtX/FuturArtXTrue/Views/FooterView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FuturArtXTrue.Views.FooterView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\FooterView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\FooterView.xaml
+
+[D:/MAUI/FuturArtX/FuturArtXTrue/Views/HeaderView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FuturArtXTrue.Views.HeaderView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HeaderView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HeaderView.xaml
